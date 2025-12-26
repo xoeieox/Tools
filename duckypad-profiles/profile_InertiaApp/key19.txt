@@ -1,0 +1,9 @@
+REM Hot reload (sends 'r' to active terminal)
+REM Works when flutter run is active in terminal
+
+OLED_CLEAR
+OLED_CURSOR 10 50
+OLED_PRINT Hot reload!
+OLED_UPDATE
+
+STRING r

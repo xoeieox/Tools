@@ -1,0 +1,33 @@
+z1 Config
+x1 urator
+z2 Prev
+x2 Profile
+z3 Next
+x3 Profile
+z4
+z5
+z6
+z7
+z8
+z9
+z10
+z11
+z12
+z13
+z14
+z15
+z16
+z17
+z18
+z19
+z20
+z21 vol+
+z22 vol-
+z23 mute
+BG_COLOR 40 40 40
+SWCOLOR_1 255 128 0
+SWCOLOR_2 100 100 255
+SWCOLOR_3 100 100 255
+SWCOLOR_21 0 200 100
+SWCOLOR_22 200 100 0
+SWCOLOR_23 200 0 0

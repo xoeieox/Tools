@@ -1,0 +1,19 @@
+REM Open Supabase Studio
+REM Opens Terminal via Spotlight and types command
+
+OLED_CLEAR
+OLED_CURSOR 10 50
+OLED_PRINT Studio...
+OLED_UPDATE
+
+REM Open Terminal via Spotlight
+GUI SPACE
+DELAY 300
+STRING Terminal
+DELAY 200
+ENTER
+DELAY 500
+
+REM Type and run command
+STRING cd ~/Projects/inertia_app && ./scripts/supabase-dev.sh studio
+ENTER

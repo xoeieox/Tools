@@ -1,0 +1,19 @@
+REM Morning Focus - Scope-first tactical sync
+REM Shows scope guardrails and today's focus
+
+OLED_CLEAR
+OLED_CURSOR 10 50
+OLED_PRINT Morning...
+OLED_UPDATE
+
+REM Open Terminal via Spotlight
+GUI SPACE
+DELAY 300
+STRING Terminal
+DELAY 200
+ENTER
+DELAY 500
+
+REM Run morning focus script
+STRING ~/Projects/inertia-vault/Daily-Operations/Autonomous-Tasks/morning-focus/morning-focus.sh
+ENTER

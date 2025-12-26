@@ -1,0 +1,19 @@
+REM Mid-Session Check - Extended session to 6:30 PM
+REM Override end time for days when schedule changes
+
+OLED_CLEAR
+OLED_CURSOR 10 50
+OLED_PRINT Extended...
+OLED_UPDATE
+
+REM Open Terminal via Spotlight
+GUI SPACE
+DELAY 300
+STRING Terminal
+DELAY 200
+ENTER
+DELAY 500
+
+REM Run mid-session check with extended end time
+STRING ~/Projects/inertia-vault/Daily-Operations/Autonomous-Tasks/mid-session/mid-session-check.sh --until 18:30
+ENTER

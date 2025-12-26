@@ -1,0 +1,19 @@
+REM Mid-Session Check - Deep Work mode
+REM Focus tasks (coding, hardware, design)
+
+OLED_CLEAR
+OLED_CURSOR 10 50
+OLED_PRINT Deep Work...
+OLED_UPDATE
+
+REM Open Terminal via Spotlight
+GUI SPACE
+DELAY 300
+STRING Terminal
+DELAY 200
+ENTER
+DELAY 500
+
+REM Run mid-session check with deep-work flag
+STRING ~/Projects/inertia-vault/Daily-Operations/Autonomous-Tasks/mid-session/mid-session-check.sh --deep-work
+ENTER

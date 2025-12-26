@@ -1,0 +1,19 @@
+REM Mid-Session Check - Default mode
+REM Decision surfacing for noon lull
+
+OLED_CLEAR
+OLED_CURSOR 10 50
+OLED_PRINT Mid-Session...
+OLED_UPDATE
+
+REM Open Terminal via Spotlight
+GUI SPACE
+DELAY 300
+STRING Terminal
+DELAY 200
+ENTER
+DELAY 500
+
+REM Run mid-session check
+STRING ~/Projects/inertia-vault/Daily-Operations/Autonomous-Tasks/mid-session/mid-session-check.sh
+ENTER

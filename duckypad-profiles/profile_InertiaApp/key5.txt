@@ -1,0 +1,19 @@
+REM Switch to PRODUCTION Supabase environment
+REM Opens Terminal - requires manual 'y' confirmation
+
+OLED_CLEAR
+OLED_CURSOR 10 50
+OLED_PRINT PROD env...
+OLED_UPDATE
+
+REM Open Terminal via Spotlight
+GUI SPACE
+DELAY 300
+STRING Terminal
+DELAY 200
+ENTER
+DELAY 500
+
+REM Type and run command (will prompt for confirmation)
+STRING cd ~/Projects/inertia_app && ./scripts/switch-env.sh production
+ENTER

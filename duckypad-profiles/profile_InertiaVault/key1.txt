@@ -1,0 +1,19 @@
+REM Vault Prep - Autonomous desk cleaning before session
+REM Triages inbox, updates canvas, generates session questions
+
+OLED_CLEAR
+OLED_CURSOR 10 50
+OLED_PRINT Vault Prep...
+OLED_UPDATE
+
+REM Open Terminal via Spotlight
+GUI SPACE
+DELAY 300
+STRING Terminal
+DELAY 200
+ENTER
+DELAY 500
+
+REM Run vault-prep script
+STRING ~/Projects/inertia-vault/Daily-Operations/Autonomous-Tasks/vault-prep/vault-prep.sh
+ENTER

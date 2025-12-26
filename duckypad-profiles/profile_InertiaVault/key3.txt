@@ -1,0 +1,19 @@
+REM Mid-Session Check - Low Energy mode
+REM Phone-friendly tasks (outreach, review, reading)
+
+OLED_CLEAR
+OLED_CURSOR 10 50
+OLED_PRINT Low Energy...
+OLED_UPDATE
+
+REM Open Terminal via Spotlight
+GUI SPACE
+DELAY 300
+STRING Terminal
+DELAY 200
+ENTER
+DELAY 500
+
+REM Run mid-session check with low-energy flag
+STRING ~/Projects/inertia-vault/Daily-Operations/Autonomous-Tasks/mid-session/mid-session-check.sh --low-energy
+ENTER

@@ -1,0 +1,10 @@
+REM Open duckyPad Configurator via BTT
+REM BTT should catch Ctrl+Shift+Alt+D and run:
+REM /Users/erhei/Tools/duckypad-configurator-launch.sh
+
+OLED_CLEAR
+OLED_CURSOR 10 50
+OLED_PRINT Opening Configurator...
+OLED_UPDATE
+
+CTRL SHIFT ALT d

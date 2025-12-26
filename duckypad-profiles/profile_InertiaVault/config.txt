@@ -1,0 +1,41 @@
+z1 Vault
+x1 Prep
+z2 Mid
+x2 Check
+z3 Low
+x3 Energy
+z4 Deep
+x4 Work
+z5 Quick
+x5 Win
+z6 Extend
+x6 18:30
+z7 Morning
+x7 Focus
+z8
+z9
+z10
+z11
+z12
+z13
+z14
+z15
+z16
+z17
+z18
+z19
+z20
+z21 vol+
+z22 vol-
+z23 mute
+BG_COLOR 40 30 60
+SWCOLOR_1 100 200 255
+SWCOLOR_2 100 255 150
+SWCOLOR_3 150 200 100
+SWCOLOR_4 255 150 100
+SWCOLOR_5 255 200 50
+SWCOLOR_6 200 150 255
+SWCOLOR_7 255 180 100
+SWCOLOR_21 0 200 100
+SWCOLOR_22 200 100 0
+SWCOLOR_23 200 0 0
