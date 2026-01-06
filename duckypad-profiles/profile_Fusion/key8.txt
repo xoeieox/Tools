@@ -1,0 +1,6 @@
+REM Align (S-key search)
+STRING s
+DELAY 200
+STRING align
+DELAY 100
+ENTER

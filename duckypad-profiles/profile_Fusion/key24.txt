@@ -1,0 +1,2 @@
+REM Zoom Out (Encoder 2 CCW)
+MOUSE_WHEEL -3

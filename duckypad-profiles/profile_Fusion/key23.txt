@@ -1,0 +1,2 @@
+REM Zoom In (Encoder 2 CW)
+MOUSE_WHEEL 3

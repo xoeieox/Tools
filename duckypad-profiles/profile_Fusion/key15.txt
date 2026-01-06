@@ -1,0 +1,6 @@
+REM Section Analysis (S-key search)
+STRING s
+DELAY 200
+STRING section
+DELAY 100
+ENTER

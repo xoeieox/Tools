@@ -4,8 +4,8 @@
 # Change this to match your duckyPad volume name
 DUCKYPAD_VOLUME := /Volumes/DP24_CD90
 
-# Profiles to sync (all profile_* folders)
-PROFILES := $(wildcard profile_*)
+# Profiles to sync (all profile_* folders, excluding files)
+PROFILES := $(shell find . -maxdepth 1 -type d -name 'profile_*' | sed 's|^\./||')
 
 # Python from configurator venv
 PYTHON := ../duckyPad-Configurator/.venv/bin/python3

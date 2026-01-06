@@ -1,0 +1,2 @@
+REM Rectangle
+STRING r

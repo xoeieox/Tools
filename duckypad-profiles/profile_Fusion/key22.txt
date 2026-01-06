@@ -1,0 +1,2 @@
+REM Fit All (Encoder 1 Push)
+F6

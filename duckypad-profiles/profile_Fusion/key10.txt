@@ -1,0 +1,6 @@
+REM Pattern (S-key search)
+STRING s
+DELAY 200
+STRING pattern
+DELAY 100
+ENTER
